@@ -1,9 +1,10 @@
-a:active, a:hover, a:focus {
-	color: #FFB71D;
-}
 body {
     font:400 15px Lato,sans-serif;
     line-height:1.8;color:#818181
+}
+h1 {
+    color: #303030;
+    text-align: center;
 }
 h2 {
     font-size:24px;
@@ -20,7 +21,7 @@ h4 {
 }
 .jumbotron {
     background-color:#2e1a4b;
-    color:#fff;
+    color:#FFB71D;
     padding:100px 25px;
     font-family:Montserrat,sans-serif
 }
@@ -35,11 +36,11 @@ h4 {
     border-radius:0;
     font-family:Montserrat,sans-serif
 }
-.navbar .navbar-brand,.navbar li a {
+.navbar-brand,.navbar a {
     color:#fff!important
 }
-.navbar-nav li a:hover {
-    color:#fff!important;
+.navbar-nav li a:active, a:focus, a:hover {
+    color:#093d20!important;
     background-color:#fff!important
 }
 .navbar-default .navbar-toggle {
