@@ -19,6 +19,15 @@ h4 {
     font-weight:400;
     margin-bottom:30px
 }
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+  }
 .jumbotron {
     background-color:#2e1a4b;
     color:#FFB71D;
@@ -46,6 +55,12 @@ h4 {
 .navbar-default .navbar-toggle {
     border-color:transparent;
     color:#fff!important
+}
+table.fixed {
+    table-layout:fixed;
+}
+table.fixed td {
+    overflow: hidden;
 }
 @keyframes slide {
     0%{opacity:0;
